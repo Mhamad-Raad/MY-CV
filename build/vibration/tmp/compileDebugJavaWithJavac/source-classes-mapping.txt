@@ -1,0 +1,8 @@
+com/benjaminabel/vibration/Vibration.java
+ com.benjaminabel.vibration.Vibration
+com/benjaminabel/vibration/BuildConfig.java
+ com.benjaminabel.vibration.BuildConfig
+com/benjaminabel/vibration/VibrationPlugin.java
+ com.benjaminabel.vibration.VibrationPlugin
+com/benjaminabel/vibration/VibrationMethodChannelHandler.java
+ com.benjaminabel.vibration.VibrationMethodChannelHandler

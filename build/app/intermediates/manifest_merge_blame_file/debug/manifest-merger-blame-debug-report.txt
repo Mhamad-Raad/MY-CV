@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cv"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\hamar\StudioProjects\cv\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\hamar\StudioProjects\cv\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <queries>
+16-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:3:5-132
+17        <intent>
+17-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:3:15-121
+18            <action android:name="android.intent.action.SENDTO" />
+18-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:3:24-78
+18-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:3:32-75
+19
+20            <data android:scheme="mailto" />
+20-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:3:79-111
+20-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:3:85-108
+21        </intent>
+22    </queries>
+23
+24    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+24-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:4:5-65
+24-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:4:22-63
+25    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\32b4359c1904b92c567245c95e5bbee9\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:13:5-79
+26-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\32b4359c1904b92c567245c95e5bbee9\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:13:22-76
+27
+28    <application
+28-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:5:4-33:19
+29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+29-->[androidx.core:core:1.6.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\875654acb8fd75501dc33efa1bebb479\core-1.6.0\AndroidManifest.xml:24:18-86
+30        android:debuggable="true"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:7:9-43
+32        android:label="cv" >
+32-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:6:9-27
+33        <activity
+33-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:8:9-27:20
+34            android:name="com.example.cv.MainActivity"
+34-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:9:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:12:13-163
+36            android:hardwareAccelerated="true"
+36-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:13:13-47
+37            android:launchMode="singleTop"
+37-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:10:13-43
+38            android:theme="@style/LaunchTheme"
+38-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:11:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:14:13-55
+40
+41            <!--
+42                 Specifies an Android theme to apply to this Activity as soon as
+43                 the Android process has started. This theme is visible to the user
+44                 while the Flutter UI initializes. After that, this theme continues
+45                 to determine the Window background behind the Flutter UI.
+46            -->
+47            <meta-data
+47-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:19:13-22:17
+48                android:name="io.flutter.embedding.android.NormalTheme"
+48-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:20:15-70
+49                android:resource="@style/NormalTheme" />
+49-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:21:15-52
+50
+51            <intent-filter>
+51-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:23:13-26:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:24:17-68
+52-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:24:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:25:17-76
+54-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:25:27-74
+55            </intent-filter>
+56        </activity>
+57        <!--
+58             Don't delete the meta-data below.
+59             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+60        -->
+61        <meta-data
+61-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:30:9-32:33
+62            android:name="flutterEmbedding"
+62-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:31:13-44
+63            android:value="2" />
+63-->C:\Users\hamar\StudioProjects\cv\android\app\src\main\AndroidManifest.xml:32:13-30
+64
+65        <service
+65-->[:cloud_firestore] C:\Users\hamar\StudioProjects\cv\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+66            android:name="com.google.firebase.components.ComponentDiscoveryService"
+66-->[:cloud_firestore] C:\Users\hamar\StudioProjects\cv\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-89
+67            android:directBootAware="true"
+67-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+68            android:exported="false" >
+68-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\32b4359c1904b92c567245c95e5bbee9\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:19:13-37
+69            <meta-data
+69-->[:cloud_firestore] C:\Users\hamar\StudioProjects\cv\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+70-->[:cloud_firestore] C:\Users\hamar\StudioProjects\cv\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-134
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:cloud_firestore] C:\Users\hamar\StudioProjects\cv\build\cloud_firestore\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+72            <meta-data
+72-->[:firebase_core] C:\Users\hamar\StudioProjects\cv\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:85
+73                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+73-->[:firebase_core] C:\Users\hamar\StudioProjects\cv\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-124
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[:firebase_core] C:\Users\hamar\StudioProjects\cv\build\firebase_core\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
+75            <meta-data
+75-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\32b4359c1904b92c567245c95e5bbee9\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:20:13-22:85
+76                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+76-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\32b4359c1904b92c567245c95e5bbee9\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:21:17-111
+77                android:value="com.google.firebase.components.ComponentRegistrar" />
+77-->[com.google.firebase:firebase-firestore:24.0.1] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\32b4359c1904b92c567245c95e5bbee9\jetified-firebase-firestore-24.0.1\AndroidManifest.xml:22:17-82
+78        </service>
+79
+80        <activity
+80-->[:url_launcher_android] C:\Users\hamar\StudioProjects\cv\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+81            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+81-->[:url_launcher_android] C:\Users\hamar\StudioProjects\cv\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+82            android:exported="false"
+82-->[:url_launcher_android] C:\Users\hamar\StudioProjects\cv\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+83            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+83-->[:url_launcher_android] C:\Users\hamar\StudioProjects\cv\build\url_launcher_android\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+84
+85        <uses-library
+85-->[androidx.window:window:1.0.0-beta04] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+86            android:name="androidx.window.extensions"
+86-->[androidx.window:window:1.0.0-beta04] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0-beta04] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+88        <uses-library
+88-->[androidx.window:window:1.0.0-beta04] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+89            android:name="androidx.window.sidecar"
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+90            android:required="false" />
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\9a30143a20a029e68d2a2c8980fee508\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+91
+92        <provider
+92-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+93            android:name="com.google.firebase.provider.FirebaseInitProvider"
+93-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+94            android:authorities="com.example.cv.firebaseinitprovider"
+94-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+95            android:directBootAware="true"
+95-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+96            android:exported="false"
+96-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+97            android:initOrder="100" />
+97-->[com.google.firebase:firebase-common:20.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\be1f31d795f15c1bd24708ca9c440629\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+98
+99        <activity
+99-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\f3d1e61e48a3c4c2b9f4d2ffc401af39\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+100            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+100-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\f3d1e61e48a3c4c2b9f4d2ffc401af39\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+101            android:exported="false"
+101-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\f3d1e61e48a3c4c2b9f4d2ffc401af39\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+102-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\f3d1e61e48a3c4c2b9f4d2ffc401af39\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+103
+104        <meta-data
+104-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\b8e5988e0bc615162088959e72f15f1d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+105            android:name="com.google.android.gms.version"
+105-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\b8e5988e0bc615162088959e72f15f1d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+106            android:value="@integer/google_play_services_version" />
+106-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\hamar\.gradle\caches\transforms-2\files-2.1\b8e5988e0bc615162088959e72f15f1d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+107    </application>
+108
+109</manifest>
